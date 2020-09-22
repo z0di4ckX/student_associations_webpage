@@ -1,5 +1,18 @@
+<!-- 
+  Creat by Wesly J. Hernandez 
+  Date: 07-18-2020
+ -->
+
+<?php 
+    include('../include/mysqli_connect.php');
+
+    $query = "SELECT * FROM associations";
+
+    $result = mysqli_query($conn, $query) or die("databese error:" . mysqli_error($conn));
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,6 +50,11 @@
         <div class="row">
           <table class="table table-strip table-hover table-bordered row_size">
             <!-- PHP code here -->
+            <?php while($row = mysqli_fetch_assoc($result)) { 
+              $id = $row['id'];
+              $poster = $row['images'];
+              $title = $row['f_name'];
+            ?>
             <div class="card text-center taxt-black bg-light mb-3" style="width: 16rem;">
               <!-- <a href="detail.php?GETID=<?php echo $id; ?>"> -->
                 <!-- <img class="card-img-top" src="<?php echo $poster; ?>" alt="<?php echo $title; ?>"> -->
@@ -45,34 +63,10 @@
                 <!-- <p class="card-text"><?php echo $title; ?></p> -->
             </div>
             </div>
+            <?php } ?>
+            <!--PHP script end loop  -->
           </table>
         </div>
-        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../images/images1.jpg" class="d-block w-100" alt="A gril">
-            </div>
-            <div class="carousel-item">
-              <img src="../images/image2.jpg" class="d-block w-100" alt="Frist student">
-            </div>
-            <div class="carousel-item">
-              <img src="../images/images3.jpg" class="d-block w-100" alt="Gril with laptop">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div> -->
       </section>
       <!-- End the section -->
     <main>
