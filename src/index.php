@@ -60,7 +60,7 @@
                 <!-- <img class="card-img-top" src="<?php echo $poster; ?>" alt="<?php echo $title; ?>"> -->
             </a>
             <div class="card-title">
-                <!-- <p class="card-text"><?php echo $title; ?></p> -->
+              <p class="card-text"><?php echo $title; ?></p>
             </div>
             </div>
             <?php } ?>
