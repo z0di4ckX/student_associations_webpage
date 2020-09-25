@@ -7,7 +7,7 @@
 
     $title = $_GET['buscar'];
 
-    $query = "SELECT id_pelicula, titulo, poster FROM pelicula WHERE titulo LIKE '%$title%' ORDER BY titulo";
+    $query = "SELECT id, f_name, images FROM associations WHERE f_name LIKE '%$title%' ORDER BY f_name";
 
     $result = mysqli_query($conn, $query) or die("databese error:" . mysqli_error($conn));
 ?>
@@ -35,7 +35,7 @@
     });
     </script>
     <!-- jQuary Script end here -->
-    <title>Interflix</title>
+    <title>Asociaciones Estudiantiles</title>
 </head>
 <body>
     <header>
