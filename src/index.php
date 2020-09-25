@@ -29,10 +29,10 @@
         <!-- Navbar content -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            <a href="index.php" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
           </li>
           <li class="nav-item" role="presentation">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+            <a href="#" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Upload</a>
           </li>
           <li class="nav-item" role="presentation">
             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
@@ -52,12 +52,12 @@
             <!-- PHP code here -->
             <?php while($row = mysqli_fetch_assoc($result)) { 
               $id = $row['id'];
-              $poster = $row['images'];
+              $images = $row['images'];
               $title = $row['f_name'];
             ?>
             <div class="card text-center taxt-black bg-light mb-3" style="width: 16rem;">
-              <!-- <a href="detail.php?GETID=<?php echo $id; ?>"> -->
-                <!-- <img class="card-img-top" src="<?php echo $poster; ?>" alt="<?php echo $title; ?>"> -->
+              <a href="detail.php?GETID=<?php echo $id; ?>">
+                <img class="card-img-top" src="<?php echo $images; ?>" alt="<?php echo $title; ?>">
             </a>
             <div class="card-title">
               <p class="card-text"><?php echo $title; ?></p>
