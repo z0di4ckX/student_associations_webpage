@@ -19,8 +19,19 @@
     <!-- Start links -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- End links --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- jQuary script here -->
+    <script>
+        $(document).ready(function() {
+        $(".btns").click(function(){
+            $(".input").toggleClass("active").focus;
+            $(this).toggleClass("animate");
+            $(".input").val("");
+        });    
+    });
+    </script>
+    <!-- jQuary script end here -->
     <title>Asociaciones Estudiantiles</title>
 </head>
 <body>
@@ -44,6 +55,18 @@
           <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
         </div>
       </nav>
+      <!-- jQuary button -->
+      <div class="wrapper sm-2">
+        <div class="search-box">
+        <form action="result.php" method="GET">
+            <input type="text" placeholder="Search..." class="input" name="buscar">
+            <div class="btns">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </form>
+        </div>
+      </div>
+      <!-- jQuary button -->
     </header>
       <!-- Section -->
       <section id="image-size" class="section-1 p-0 text-center">
