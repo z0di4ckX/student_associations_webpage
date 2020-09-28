@@ -1,15 +1,15 @@
 <!-- 
   Creat by Wesly J. Hernandez 
-  Date: 07-18-2020
+  Date: 07-28-2020
  -->
 
-<?php 
+ <!-- <?php 
     include('../include/mysqli_connect.php');
 
     $query = "SELECT * FROM associations";
 
     $result = mysqli_query($conn, $query) or die("databese error:" . mysqli_error($conn));
-?>
+?> -->
 
 <!DOCTYPE html>
 <html>
@@ -44,7 +44,7 @@
             <a href="index.php" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
           </li>
           <li class="nav-item" role="presentation">
-            <a href="uploadImg.php" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Upload</a>
+            <a href="#" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Upload</a>
           </li>
           <li class="nav-item" role="presentation">
             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
@@ -65,27 +65,29 @@
       <!-- jQuary button -->
     </header>
       <!-- Section -->
-      <section id="image-size" class="section-1 p-0 text-center">
-        <div class="row">
-          <table class="table table-strip table-hover table-bordered row_size">
-            <!-- PHP code here -->
-            <?php while($row = mysqli_fetch_assoc($result)) { 
-              $id = $row['id'];
-              $images = $row['images'];
-              $title = $row['f_name'];
-            ?>
-            <div class="card text-center taxt-black bg-light mb-3" style="width: 16rem;">
-              <a href="detail.php?GETID=<?php echo $id; ?>">
-                <img class="card-img-top" src="<?php echo $images; ?>" alt="<?php echo $title; ?>">
-            </a>
-            <div class="card-title">
-              <p class="card-text"><?php echo $title; ?></p>
-            </div>
-            </div>
-            <?php } ?>
-            <!--PHP script end loop  -->
-          </table>
-        </div>
+      <section class="section-1 m-0 p-0 text-center">
+      <h1>Añadir Asociacion</h1>
+            <form class="formulario" action="end.html" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input class="text-center" type="text" id="name" />
+                </div>
+                <div class="form-group">
+                    <label for="mail">E-mail:</label>
+                    <input class="text-center" type="email" id="mail" />
+                </div>
+                <div class="form-group">
+                    <label for="msg">About:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+                <div  class="form-group">
+                    <label for="exampleFormControlFile1">Example file input</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enviar" class="boton_personalizado">
+                </div>
+            </form> 
       </section>
       <!-- End the section -->
     <main>

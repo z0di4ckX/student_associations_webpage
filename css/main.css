@@ -268,3 +268,39 @@ input {
 	transform: rotate(45deg);
 	cursor: pointer;
 }
+
+.formulario {
+	margin: 0 auto;
+	margin-bottom: 60px;
+	width: 600px;
+	padding: 2em;
+	border: 1px solid rgb(2, 109, 55);
+	border-radius: 1em;
+}
+
+.formulario div + div {
+	margin-top: 1em;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+
+input, textarea {
+	font: 1em sans-serif;
+	width: 300px;
+	-moz-box-sizing: border-box;
+	box-sizing: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+	border-color: #000;
+}
+
+textarea {
+	vertical-align: top;
+	height: 5em;
+	resize: vertical;
+}

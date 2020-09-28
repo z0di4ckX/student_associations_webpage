@@ -36,7 +36,7 @@ if($result > 0) {
 	</head>
     <body>
         <?php if($result > 0) { ?>
-            <h1> Añadir Asociacion</h1>
+            <h1>Añadir Asociacion</h1>
         <?php header("location: ../src/index.php"); ?>
         <?php }
             else{?>
