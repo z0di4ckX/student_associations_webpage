@@ -305,6 +305,6 @@ textarea {
 	resize: vertical;
 }
 
-.font-style {
+h1, .font-style {
     font-family: 'Courgette', cursive;
 }

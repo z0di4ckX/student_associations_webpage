@@ -73,8 +73,8 @@
       <!-- jQuary button -->
     </header>
       <!-- Section -->
-      <section class="section-1 m-0 p-0 text-center">
-      <h1 class="font-style">Añadir Asociacion</h1>
+      <section class="section-1 m-5 p-0 text-center">
+      <h1 class="font-style m-3">Añadir Asociacion</h1>
             <form class="formulario" action="end.html" method="post" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="name">Name:</label>
@@ -89,7 +89,7 @@
                     <textarea id="msg"></textarea>
                 </div>
                 <div  class="form-group">
-                    <label for="exampleFormControlFile1">Example file input</label>
+                    <label for="exampleFormControlFile1">Images</label>
                     <input type="file" class="form-control-file" id="exampleFormControlFile1">
                 </div>
                 <div class="button">
