@@ -1,6 +1,8 @@
 <!-- 
   Creat by Wesly J. Hernandez 
   Date: 07-25-2020
+
+Hola estamos en el taller de github
  -->
 <?php 
     include('../include/connect.php');
