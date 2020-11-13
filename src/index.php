@@ -44,19 +44,19 @@
         <div class="th-bar-cantainer">
           <div class="right">
             <div class="th-yellow th-right-span">
-              <a href="https://interbb.blackboard.com" target="_self">Blackboard</a>
+              <a class="boton_personalizado" href="https://interbb.blackboard.com" target="_self">Blackboard</a>
             </div>
             <div class="th-yellow th-right-span">
-              <a href="/email/" target="_self">Correo Electrónico</a>
+              <a class="boton_personalizado" href="/email/" target="_self">Correo Electrónico</a>
             </div>
             <div class="th-yellow th-right-span">
-              <a href="https://ssb.ec.inter.edu/ssomanager/c/SSB" target="_blank">Inter Web</a>
+              <a class="boton_personalizado" href="https://ssb.ec.inter.edu/ssomanager/c/SSB" target="_blank">Inter Web</a>
             </div>
             <div class="th-yellow">
-              <a href="https://form.jotform.com/202857934595874" target="_blank">Solicita Admisión</a>
+              <a class="boton_personalizado" href="https://form.jotform.com/202857934595874" target="_blank">Solicita Admisión</a>
             </div>
             <div class="th-yellow">
-              <a href="/matricula/registraduria/registraduria/formulario-readmision/" target="_blank">Readmisión</a>
+              <a class="boton_personalizado" href="/matricula/registraduria/registraduria/formulario-readmision/" target="_blank">Readmisión</a>
             </div>
           </div>
         </div>
@@ -80,9 +80,9 @@
           <table class="table table-strip table-hover table-bordered row_size">
             <!-- PHP code here -->
             <?php while($row = mysqli_fetch_assoc($result)) { 
-              $id = $row['id'];
-              $images = $row['images'];
-              $title = $row['f_name'];
+              $id = $row['associations'];
+              $images = $row['logo'];
+              $title = $row['f_Name'];
             ?>
             <div class="card text-center taxt-black bg-light mb-3" style="width: 16rem;">
               <a href="detail.php?GETID=<?php echo $id; ?>">

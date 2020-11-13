@@ -308,3 +308,20 @@ textarea {
 h1, .font-style {
     font-family: 'Courgette', cursive;
 }
+
+.boton_personalizado{
+	margin: 40px;
+	text-decoration: none;
+	text-align: center;
+    padding: 6px;
+    font-weight: 600;
+    font-size: 10px;
+    color:  #ffffff;
+    background-color: rgb(2, 109, 55);
+    border-radius: 5px;
+    border: 2px solid  rgb(2, 109, 55);
+  }
+  .boton_personalizado:hover{
+    color: rgb(2, 109, 55);
+    background-color:  #ffffff;
+  }
