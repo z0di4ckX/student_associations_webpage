@@ -60,17 +60,6 @@
             </div>
           </div>
         </div>
-        <div class="buttons">
-          <div class="but">
-            <a href="https://interbb.blackboard.com" target="_self" class="botlink">Blackboard</a>
-          </div>
-          <div class="but">
-            <a href="https://aguadilla.inter.edu/email/" target="_self" class="botlink">E-Mail</a>
-          </div>
-          <div class="but">
-            <a href="https://ssb.ec.inter.edu/ssomanager/c/SSB" target="_blank" class="botlink">Inter Web</a>
-          </div>
-        </div>
       </nav>
       <!-- jQuary button -->
       <div class="wrapper sm-2">
