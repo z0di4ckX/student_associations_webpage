@@ -1,10 +1,6 @@
 <!-- 
   Creat by Wesly J. Hernandez 
   Date: 07-18-2020
-  It's britney bitch 123 pescaito es y 4 pelos mas
-
-Aqui tu mostopapi haciendo boom
-
  -->
 
 <?php 
@@ -44,26 +40,25 @@ Aqui tu mostopapi haciendo boom
     <header>
       <nav class="navbar">
         <!-- Navbar content -->
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Inter</a>
-          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> -->
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="uploadImg.php">Upload</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+        <div class="th-bar-cantainer">
+          <div class="right">
+            <div class="th-yellow th-right-span">
+              <a class="boton_personalizado" href="https://interbb.blackboard.com" target="_self">Blackboard</a>
+            </div>
+            <div class="th-yellow th-right-span">
+              <a class="boton_personalizado" href="/email/" target="_self">Correo Electrónico</a>
+            </div>
+            <div class="th-yellow th-right-span">
+              <a class="boton_personalizado" href="https://ssb.ec.inter.edu/ssomanager/c/SSB" target="_blank">Inter Web</a>
+            </div>
+            <div class="th-yellow">
+              <a class="boton_personalizado" href="https://form.jotform.com/202857934595874" target="_blank">Solicita Admisión</a>
+            </div>
+            <div class="th-yellow">
+              <a class="boton_personalizado" href="/matricula/registraduria/registraduria/formulario-readmision/" target="_blank">Readmisión</a>
+            </div>
           </div>
-        </nav>
+        </div>
       </nav>
       <!-- jQuary button -->
       <div class="wrapper sm-2">
@@ -84,9 +79,9 @@ Aqui tu mostopapi haciendo boom
           <table class="table table-strip table-hover table-bordered row_size">
             <!-- PHP code here -->
             <?php while($row = mysqli_fetch_assoc($result)) { 
-              $id = $row['id'];
-              $images = $row['images'];
-              $title = $row['f_name'];
+              $id = $row['associations'];
+              $images = $row['logo'];
+              $title = $row['f_Name'];
             ?>
             <div class="card text-center taxt-black bg-light mb-3" style="width: 16rem;">
               <a href="detail.php?GETID=<?php echo $id; ?>">
