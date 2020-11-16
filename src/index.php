@@ -38,28 +38,28 @@
 </head>
 <body>
     <header>
-      <nav class="navbar">
-        <!-- Navbar content -->
-        <div class="th-bar-cantainer">
-          <div class="right">
-            <div class="th-yellow th-right-span">
-              <a class="boton_personalizado" href="https://interbb.blackboard.com" target="_self">Blackboard</a>
-            </div>
-            <div class="th-yellow th-right-span">
-              <a class="boton_personalizado" href="/email/" target="_self">Correo Electrónico</a>
-            </div>
-            <div class="th-yellow th-right-span">
-              <a class="boton_personalizado" href="https://ssb.ec.inter.edu/ssomanager/c/SSB" target="_blank">Inter Web</a>
-            </div>
-            <div class="th-yellow">
-              <a class="boton_personalizado" href="https://form.jotform.com/202857934595874" target="_blank">Solicita Admisión</a>
-            </div>
-            <div class="th-yellow">
-              <a class="boton_personalizado" href="/matricula/registraduria/registraduria/formulario-readmision/" target="_blank">Readmisión</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark py-0 fixed-top">
+      <a class="navbar-brand" href="#">Interamericana</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blackboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Correo Electronico</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inter Web</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Solicita Admision</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
       <!-- jQuary button -->
       <div class="wrapper sm-2">
         <div class="search-box">
