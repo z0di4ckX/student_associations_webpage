@@ -18,8 +18,12 @@ header {
     width: auto;
 }
 
-.nav-image {
-    width: 140px;
+.navbar-top {
+    margin: 1px;
+}
+
+.nav-item {
+    margin: -25px;
 }
 
 .main_title {
@@ -101,7 +105,7 @@ color: rgb(2, 109, 55);
 }
 
 .card {
-    margin: 10px;
+    margin: 50px;
     padding: 20px;
     width: 15rem;
     display: grid;
@@ -309,7 +313,7 @@ h1, .font-style {
     font-family: 'Courgette', cursive;
 }
 
-.boton_personalizado{
+.boton_personalizado {
 	margin: 40px;
 	text-decoration: none;
 	text-align: center;
@@ -321,7 +325,7 @@ h1, .font-style {
     border-radius: 5px;
     border: 2px solid  rgb(2, 109, 55);
   }
-  .boton_personalizado:hover{
+  .boton_personalizado:hover {
     color: rgb(2, 109, 55);
     background-color:  #ffffff;
   }

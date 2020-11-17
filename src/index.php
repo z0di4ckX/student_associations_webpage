@@ -38,24 +38,21 @@
 </head>
 <body>
     <header>
-    <nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark py-0 fixed-top">
-      <a class="navbar-brand" href="#">Interamericana</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-top">
+    <img class="standard-logo lazyloaded" src="https://aguadilla.inter.edu/wp-content/uploads/2015/02/Aguadilla-Logo.png" alt="Universidad Interamericana de Puerto Rico - Recinto de Aguadilla" data-ll-status="loaded">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Blackboard</a>
+            <a class="nav-link boton_personalizado" href="https://interbb.blackboard.com">Blackboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Correo Electronico</a>
+            <a class="nav-link boton_personalizado" href="/email/">Correo Electronico</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Inter Web</a>
+            <a class="nav-link boton_personalizado" href="https://ssb.ec.inter.edu/ssomanager/c/SSB">Inter Web</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Solicita Admision</a>
+            <a class="nav-link boton_personalizado" href="https://form.jotform.com/202857934595874">Solicita Admision</a>
           </li>
         </ul>
       </div>
