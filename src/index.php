@@ -38,7 +38,7 @@
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-expand-md navbar-dark navbar-top">
+    <nav class="navbar navbar-expand-md navbar-dark">
     <img class="standard-logo lazyloaded" src="https://aguadilla.inter.edu/wp-content/uploads/2015/02/Aguadilla-Logo.png" alt="Universidad Interamericana de Puerto Rico - Recinto de Aguadilla" data-ll-status="loaded">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
