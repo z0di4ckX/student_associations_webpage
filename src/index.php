@@ -38,9 +38,12 @@
 </head>
 <body>
     <header>
-      <nav class="navbar">
+        <nav class="navbar navbar-expand-lg">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         <!-- Navbar content -->
-        <div class="th-bar-cantainer">
+        <div class="th-bar-container collapse navbar-collapse">
           <div class="right">
             <div class="th-yellow th-right-span">
               <a class="boton_personalizado" href="https://interbb.blackboard.com" target="_self">Blackboard</a>
