@@ -101,7 +101,54 @@
       </section>
       <!-- End the section -->
     <main>
-
+    <div class="pagetitle">
+    <h1>Asociaciones Estudiantiles</h1>
+    </div>
+    <table class="cardtable"with=100%>
+    
+        <tr>
+          <td> <div class="card">
+            <a href="icsa.html"><img src="images/ICSA Logo.jpeg" alt="Avatar" width="250"height="250" ></a>
+            <div class="containerl">
+              <h4><b>ICSA</b></h4>
+              <p>Ciencias y Tecnologia</p></div>
+    </td>
+          <td> <div class="card">
+            <a href="ieee.html"><img src="images/IEEE.jpg" alt="Avatar" width="250"height="250"></a>
+            <div class="containerl">
+              <h4><b>IEEE</b></h4>
+              <p>Ciencias y Tecnologia</p>
+    </td>
+    <td> <div class="card">
+        <a href="icsa.html"><img src="images/Inter Designers.jpg" alt="Avatar" width="250"height="250"></a>
+        <div class="containerl">
+          <h4><b>Inter Designers</b></h4>
+          <p>Estudios humanisticos</p>
+</td>
+        </tr>
+        <tr >
+            <td> <div class="card">
+              <a href="aecpf.html"><img src="images/Logo de asociacion.png" alt="Avatar" width="250"height="250" ></a>
+              <div class="containerl">
+                <h4><b>AECPF</b></h4>
+                <p>Estudios graduados</p></div>
+      </td>
+            <td> <div class="card">
+              <a href="SECAT.html"><img src="images/SECAT.jpg" alt="Avatar" width="250"height="250"></a>
+              <div class="containerl">
+                <h4><b>SECAT</b></h4>
+                <p>Ciencias Ambientales</p>
+      </td>
+      <td> <div class="card">
+          <a href="icsa.html"><img src="images/MEDLIFE.jpg" alt="Avatar" width="250"height="250"></a>
+          <div class="containerl">
+            <h4><b>MEDLIFE</b></h4>
+            <p>Ciencias de la salud</p>
+  </td>
+          </tr>
+      
+  
+</table>
     </main>
 </body>
 <!-- Start bootstrap script -->

@@ -130,6 +130,7 @@ color: rgb(2, 109, 55);
     font-family: roboto;
     justify-content: center;
     align-items: center;
+
 }
 
 .card-image {
@@ -156,6 +157,16 @@ color: rgb(2, 109, 55);
     margin: 5px auto;
     justify-content: center;
     align-items: center;
+}
+table.cardtable{
+	  width: 100%;
+	  vertical-align: middle;
+	  border-spacing: 5ch;
+      border-collapse: separate;
+  }
+
+.pagetitle{
+    text-align: center;
 }
 
 .section-1 {
