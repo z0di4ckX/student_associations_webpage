@@ -139,6 +139,7 @@ h1, .font-style {
     font-size: larger;
     height: 30%;
     margin-right:700px;
+    margin-top: -80px;
 }
 
 td{
@@ -166,6 +167,8 @@ tr:nth-child(odd){
     margin-left: 500px;
     margin-right: 100px;
     text-align: justify;
+    
+    
 }
 .contact{
     margin-left: 500px;

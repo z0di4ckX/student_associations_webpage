@@ -69,7 +69,7 @@ $result = mysqli_query($conn, $query) or die("databese error:" . mysqli_error($c
                     <div class="pageinfo">
                         <h1>Inter Computer Science Association</h1>
                         <h3>Departamento: Ciencias y Tecnologia </h3>
-                        <h3>Inter Computer Science Associacion es una asociacion dirigida a los estudiantes de Ciencias en Computadora en la cual hacemos actividades relevantes a nuestra concentracion para desarrollar nuestro aprovechamiento academico al igual que nuestras destrezas para el desempeno laboral. Nuestras actividades en el semestre pueden variar, usualmente se hacen competencias de codigo, proyectos tales como esta pagina, varios talleres entre otras cosas. Despues me tienen que ayudar a llenar esto un poquito mas porque no se me ocurre mas nada que decir al momento. </h3>
+                        <h4>Inter Computer Science Associacion es una asociacion dirigida a los estudiantes de Ciencias en Computadora en la cual hacemos actividades relevantes a nuestra concentracion para desarrollar nuestro aprovechamiento academico al igual que nuestras destrezas para el desempeno laboral. Nuestras actividades en el semestre pueden variar, usualmente se hacen competencias de codigo, proyectos tales como esta pagina, varios talleres entre otras cosas. Despues me tienen que ayudar a llenar esto un poquito mas porque no se me ocurre mas nada que decir al momento. </h4>
                     </div>
                     <!-- End of Page Main Info -->
 
