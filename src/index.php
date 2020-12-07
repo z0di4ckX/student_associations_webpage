@@ -101,11 +101,13 @@
       </section>
       <!-- End the section -->
     <main>
+      <!-- This is the page title  -->
     <div class="pagetitle">
     <h1>Asociaciones Estudiantiles</h1>
     </div>
+      <!-- End of Page title   -->
+      <!-- Card table begins  -->
     <table class="cardtable"with=100%>
-    
         <tr>
           <td> <div class="card">
             <a href="icsa.html"><img src="images/ICSA Logo.jpeg" alt="Avatar" width="250"height="250" ></a>
@@ -146,9 +148,8 @@
             <p>Ciencias de la salud</p>
   </td>
           </tr>
-      
-  
 </table>
+<!-- End Of Card table  -->
     </main>
 </body>
 <!-- Start bootstrap script -->
