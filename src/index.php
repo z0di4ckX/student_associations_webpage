@@ -1,5 +1,5 @@
 <!-- 
-  Creat by Wesly J. Hernandez 
+  Created by Wesly J. Hernandez
   Date: 07-18-2020
  -->
 
@@ -113,7 +113,7 @@ $result = mysqli_query($conn, $query) or die("databese error:" . mysqli_error($c
       <tr>
         <td>
           <div class="card">
-            <a href="icsa.html"><img src="images/ICSA Logo.jpeg" alt="Avatar" width="250" height="250"></a>
+            <a href="icsa.php"><img src="images/ICSA Logo.jpeg" alt="Avatar" width="250" height="250"></a>
             <div class="containerl">
               <h4><b>ICSA</b></h4>
               <p>Ciencias y Tecnologia</p>
