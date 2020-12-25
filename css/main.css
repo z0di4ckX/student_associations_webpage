@@ -325,3 +325,49 @@ h1, .font-style {
     color: rgb(2, 109, 55);
     background-color:  #ffffff;
   }
+
+  table{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	margin-left: 500px;
+	width: 1000px;
+	border: 5px solid #ffffff;
+    text-align: left;
+    font-size: larger;
+    height: 30%;
+    margin-right:700px;
+    margin-top: -80px;
+}
+
+td{
+    border: 5px solid #ffffff;
+    font-weight: 700;
+}
+
+th{
+    border: 1px solid #ffffff;
+    background-color: #158311;
+    font-weight: bolder;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ffd904;
+    color: black;
+}
+tr:nth-child(odd){
+    background-color: #158311;
+    color: black;
+}
+
+.pageinfo{
+    margin-left: 500px;
+    margin-right: 100px;
+    text-align: justify;
+    
+    
+}
+.contact{
+    margin-left: 500px;
+    text-align: left;
+}
