@@ -17,7 +17,7 @@ $result = mysqli_query($conn, $query) or die("databese error:" . mysqli_error($c
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Start links -->
-    <link rel="stylesheet" href="../css/pagestyle.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
@@ -59,8 +59,18 @@ $result = mysqli_query($conn, $query) or die("databese error:" . mysqli_error($c
     <section id="image-size" class="section-1 p-0 text-center">
         <div class="row">
             <table class="table table-strip table-hover table-bordered row_size">
-                <!-- PHP code here -->
+                
+                <!-- Association list in while loop -->
 
+                <!-- PHP code here -->
+                <?php while($row = mysqli_fetch_assoc($result)) {
+                    $id = $row['associations'];
+                    $images = $row['logo'];
+                    $title = $row['f_Name'];
+                    // $des = $row['discription'];
+                ?>
+                
+                <?php } ?>
                 <!-- End the section -->
 
                 <!-- Page Main Information  -->
