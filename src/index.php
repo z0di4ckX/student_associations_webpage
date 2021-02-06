@@ -79,17 +79,20 @@ $result = mysqli_query($conn, $query) or die("databese error:" . mysqli_error($c
     <!-- jQuary button -->
   </header>
   <!-- Section -->
+  <div class="pagetitle">
+      <h1>Asociaciones Estudiantiles</h1>
+  </div>
   <section id="image-size" class="section-1 p-0 text-center">
     <div class="row">
       <table class="table table-strip table-hover table-bordered row_size">
         <!-- PHP code here -->
         <?php while ($row = mysqli_fetch_assoc($result)) {
-          $id = $row['associations'];
+          $id = $row['id'];
           $images = $row['logo'];
-          $title = $row['f_Name'];
+          $title = $row['association'];
         ?>
           <div class="card text-center taxt-black bg-light mb-3" style="width: 16rem;">
-            <a href="detail.php?GETID=<?php echo $id; ?>">
+            <a href="icsa.php">
               <img class="card-img-top" src="<?php echo $images; ?>" alt="<?php echo $title; ?>">
             </a>
             <div class="card-title">
