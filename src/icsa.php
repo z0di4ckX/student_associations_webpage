@@ -65,7 +65,7 @@ $result = mysqli_query($conn, $query) or die("databese error:" . mysqli_error($c
 
                 <!-- Page Main Information  -->
                 <main class="main">
-                    <div class="ICSA"><a href="index.php"><img src="images/ICSA Logo.jpeg" width="400" height="400" alt="ICSA" ALIGN="left"></a> </div>
+                    <div class="ICSA"><a href="index.php"><img src="https://scontent.fsig3-1.fna.fbcdn.net/v/t1.0-9/119110816_1023516111420939_1634671659710261333_n.png?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=XFwaiF1BPWIAX85gm3o&_nc_ht=scontent.fsig3-1.fna&oh=cadb4179fc253736545d658646d4dffe&oe=60430FB2" width="400" height="400" alt="ICSA" ALIGN="left"></a> </div>
                     <div class="pageinfo">
                         <h1>Inter Computer Science Association</h1>
                         <h3>Departamento: Ciencias y Tecnologia </h3>
