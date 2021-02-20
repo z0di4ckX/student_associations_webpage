@@ -103,56 +103,7 @@ $result = mysqli_query($conn, $query) or die("databese error:" . mysqli_error($c
         <!--PHP script end loop  -->
       </table>
     </div>
-<<<<<<< Updated upstream
   </section>
-=======
-    <table class="cardtable"with=100%>
-    
-        <tr>
-          <td> <div class="card">
-            <a href="icsa.html"><img src="https://scontent.fsig3-1.fna.fbcdn.net/v/t1.0-9/119110816_1023516111420939_1634671659710261333_n.png?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=kBIyCBoYE4YAX9kX-Lw&_nc_ht=scontent.fsig3-1.fna&oh=4418f5011937e9c7cf672df4e46455cc&oe=5FF3F5B2" alt="Avatar" width="250"height="250" ></a>
-            <div class="containerl">
-              <h4><b>ICSA</b></h4>
-              <p>Ciencias y Tecnologia</p></div>
-    </td>
-          <td> <div class="card">
-            <a href="ieee.html"><img src="images/IEEE.jpg" alt="Avatar" width="250"height="250"></a>
-            <div class="containerl">
-              <h4><b>IEEE</b></h4>
-              <p>Ciencias y Tecnologia</p>
-    </td>
-    <td> <div class="card">
-        <a href="icsa.html"><img src="images/Inter Designers.jpg" alt="Avatar" width="250"height="250"></a>
-        <div class="containerl">
-          <h4><b>Inter Designers</b></h4>
-          <p>Estudios humanisticos</p>
-</td>
-        </tr>
-        <tr >
-            <td> <div class="card">
-              <a href="aecpf.html"><img src="images/Logo de asociacion.png" alt="Avatar" width="250"height="250" ></a>
-              <div class="containerl">
-                <h4><b>AECPF</b></h4>
-                <p>Estudios graduados</p></div>
-      </td>
-            <td> <div class="card">
-              <a href="SECAT.html"><img src="images/SECAT.jpg" alt="Avatar" width="250"height="250"></a>
-              <div class="containerl">
-                <h4><b>SECAT</b></h4>
-                <p>Ciencias Ambientales</p>
-      </td>
-      <td> <div class="card">
-          <a href="icsa.html"><img src="images/MEDLIFE.jpg" alt="Avatar" width="250"height="250"></a>
-          <div class="containerl">
-            <h4><b>MEDLIFE</b></h4>
-            <p>Ciencias de la salud</p>
-  </td>
-          </tr>
-      
-  
-</table>
-    </main>
->>>>>>> Stashed changes
 </body>
 <!-- Start bootstrap script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
